@@ -1,7 +1,5 @@
 FROM php:7-apache
 
-MAINTAINER Bakudankun <bakudankun@gmail.com>
-
 RUN apt-get update && apt-get install -y unzip && rm -rf /var/lib/apt/lists/*
 
 # set recommended PHP.ini settings
